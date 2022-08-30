@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="VOIS">
+	<parameter name="browser" value="edge"></parameter>
+	<test name="Assessment Test">
+		<classes>
+			<class name="tests.homePageTest" />
+			<class name="tests.SignUpTest" />
+			<class name="tests.RegistrationTest" />
+			<class name="tests.OrderTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

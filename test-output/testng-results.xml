@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-30T03:35:59 EET" name="VOIS" finished-at="2022-08-30T03:36:38 EET" duration-ms="39096">
+    <groups>
+    </groups>
+    <test started-at="2022-08-30T03:35:59 EET" name="Assessment Test" finished-at="2022-08-30T03:36:38 EET" duration-ms="39096">
+      <class name="tests.homePageTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.homePageTest@3cebbb30]" started-at="2022-08-30T03:35:20 EET" name="startDriver" finished-at="2022-08-30T03:35:59 EET" duration-ms="38383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="estanna()[pri:0, instance:tests.homePageTest@3cebbb30]" started-at="2022-08-30T03:35:59 EET" name="estanna" finished-at="2022-08-30T03:35:59 EET" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estanna -->
+        <test-method signature="userCanGoSignPage()[pri:1, instance:tests.homePageTest@3cebbb30]" started-at="2022-08-30T03:36:00 EET" name="userCanGoSignPage" finished-at="2022-08-30T03:36:03 EET" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanGoSignPage -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.homePageTest@3cebbb30]" started-at="2022-08-30T03:36:03 EET" name="screenshotOnFailure" finished-at="2022-08-30T03:36:03 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanGoSignPage status=SUCCESS method=homePageTest.userCanGoSignPage()[pri:1, instance:tests.homePageTest@3cebbb30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.homePageTest@3cebbb30]" started-at="2022-08-30T03:36:38 EET" name="stopDriver" finished-at="2022-08-30T03:36:38 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.homePageTest -->
+      <class name="tests.OrderTest">
+        <test-method is-config="true" signature="estanna()[pri:0, instance:tests.OrderTest@47e2e487]" started-at="2022-08-30T03:36:11 EET" name="estanna" finished-at="2022-08-30T03:36:11 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estanna -->
+        <test-method signature="userCanOrder()[pri:4, instance:tests.OrderTest@47e2e487]" started-at="2022-08-30T03:36:11 EET" name="userCanOrder" finished-at="2022-08-30T03:36:38 EET" duration-ms="26989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanOrder -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.OrderTest@47e2e487]" started-at="2022-08-30T03:36:38 EET" name="screenshotOnFailure" finished-at="2022-08-30T03:36:38 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanOrder status=SUCCESS method=OrderTest.userCanOrder()[pri:4, instance:tests.OrderTest@47e2e487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.OrderTest -->
+      <class name="tests.SignUpTest">
+        <test-method is-config="true" signature="estanna()[pri:0, instance:tests.SignUpTest@659499f1]" started-at="2022-08-30T03:36:03 EET" name="estanna" finished-at="2022-08-30T03:36:03 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estanna -->
+        <test-method signature="userCanCreateAccount()[pri:2, instance:tests.SignUpTest@659499f1]" started-at="2022-08-30T03:36:03 EET" name="userCanCreateAccount" finished-at="2022-08-30T03:36:03 EET" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanCreateAccount -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SignUpTest@659499f1]" started-at="2022-08-30T03:36:03 EET" name="screenshotOnFailure" finished-at="2022-08-30T03:36:03 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanCreateAccount status=SUCCESS method=SignUpTest.userCanCreateAccount()[pri:2, instance:tests.SignUpTest@659499f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.SignUpTest -->
+      <class name="tests.RegistrationTest">
+        <test-method is-config="true" signature="estanna()[pri:0, instance:tests.RegistrationTest@51e69659]" started-at="2022-08-30T03:36:03 EET" name="estanna" finished-at="2022-08-30T03:36:03 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estanna -->
+        <test-method signature="UserCanRegister()[pri:3, instance:tests.RegistrationTest@51e69659]" started-at="2022-08-30T03:36:03 EET" name="UserCanRegister" finished-at="2022-08-30T03:36:11 EET" duration-ms="7770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegister -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegistrationTest@51e69659]" started-at="2022-08-30T03:36:11 EET" name="screenshotOnFailure" finished-at="2022-08-30T03:36:11 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegister status=SUCCESS method=RegistrationTest.UserCanRegister()[pri:3, instance:tests.RegistrationTest@51e69659] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.RegistrationTest -->
+    </test> <!-- Assessment Test -->
+  </suite> <!-- VOIS -->
+</testng-results>

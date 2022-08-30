@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VOIS]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="Assessment Test(failed)">
+    <classes>
+      <class name="tests.homePageTest">
+        <methods>
+          <include name="estanna"/>
+          <include name="userCanGoSignPage"/>
+          <include name="stopDriver"/>
+          <include name="startDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.homePageTest -->
+    </classes>
+  </test> <!-- Assessment Test(failed) -->
+</suite> <!-- Failed suite [VOIS] -->
